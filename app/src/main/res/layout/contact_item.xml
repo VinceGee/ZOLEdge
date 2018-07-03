@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/card__view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <zw.co.vokers.zoledge.utils.VinceTextView
+            android:id="@+id/contactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="5dp"
+            android:text="Vincent H Guyo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingStart="@dimen/activity_horizontal_margin" />
+
+        <zw.co.vokers.zoledge.utils.VinceTextView
+            android:id="@+id/contactDept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="Customer Services"
+            android:layout_below="@id/contactName"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingStart="@dimen/activity_horizontal_margin" />
+
+        <zw.co.vokers.zoledge.utils.VinceTextView
+            android:id="@+id/contactCell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:text="0773 418 009"
+            android:layout_below="@id/contactDept"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingStart="@dimen/activity_horizontal_margin" />
+
+        <zw.co.vokers.zoledge.utils.VinceTextView
+            android:id="@+id/contactDash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contactDept"
+            android:layout_toEndOf="@+id/contactCell"
+            android:layout_toRightOf="@+id/contactCell"
+            android:paddingBottom="5dp"
+            android:text=" - "
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <zw.co.vokers.zoledge.utils.VinceTextView
+            android:id="@+id/contactExtension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="5777"
+            android:layout_below="@id/contactDept"
+            android:layout_toRightOf="@+id/contactDash"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_toEndOf="@+id/contactDash" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

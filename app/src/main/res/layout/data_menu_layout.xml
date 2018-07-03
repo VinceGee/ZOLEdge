@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zw.co.vokers.zoledge.utils.MetaballMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/metaball_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="45dp"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    app:backgroundColor="@color/colorPrimary"
+    app:metaballColor="@android:color/white"
+    app:backgroundShapeRadius="15dp"
+    app:needsElevation="true">
+
+    <zw.co.vokers.zoledge.utils.MetaballMenuImageView
+        android:id="@+id/menuitem1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        app:defaultImage="@drawable/ic_reprov"
+        app:selectedImage="@drawable/reprov"/>
+
+    <zw.co.vokers.zoledge.utils.MetaballMenuImageView
+        android:id="@+id/menuitem2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:defaultImage="@drawable/ic_reloreprov"
+        app:selectedImage="@drawable/reloreprov"
+        />
+
+    <zw.co.vokers.zoledge.utils.MetaballMenuImageView
+        android:id="@+id/menuitem3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:defaultImage="@drawable/warning_whit"
+        app:selectedImage="@drawable/warning"
+        />
+
+</zw.co.vokers.zoledge.utils.MetaballMenu>

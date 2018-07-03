@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:typeface">serif</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:typeface">serif</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ForDrawer" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="Button" parent="Base.TextAppearance.AppCompat.Button" >
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <declare-styleable name="ScalingLayout">
+        <attr name="radiusFactor" format="float" />
+    </declare-styleable>
+
+    <style name="Info" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:typeface">serif</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Mission" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>-->
+    </style>
+
+    <style name="toolbarTheme" parent="Mission">
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <style name="Info.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Info.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <declare-styleable name="HorizontalScrollMenuView">
+        <attr name="icon_width" format="dimension" />
+        <attr name="icon_height" format="dimension" />
+        <attr name="backgroundMenuColor" format="color" />
+        <attr name="backgroundNotifications" format="color" />
+        <attr name="item_textColor" format="color" />
+        <attr name="item_backgroundColor" format="color" />
+        <attr name="item_marginTop" format="dimension" />
+        <attr name="item_marginBottom" format="dimension" />
+        <attr name="item_marginLeft" format="dimension" />
+        <attr name="item_marginRight" format="dimension" />
+        <attr name="item_colorSelected" format="color" />
+        <attr name="item_textSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MetaballMenu">
+        <attr name="backgroundColor" format="color" />
+        <attr name="metaballColor" format="color" />
+        <attr name="backgroundShapeRadius" format="dimension" />
+        <attr name="needsElevation" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MetaballMenuImageView">
+        <attr name="defaultImage" format="reference"/>
+        <attr name="selectedImage" format="reference"/>
+    </declare-styleable>
+
+    <style name="TextAppearance"/>
+
+    <style name="TextAppearance.MaterialCompat"/>
+
+    <style name="TextAppearance.MaterialCompat.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.MaterialCompat.Body2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Widget.Stepper" parent="">
+        <item name="step_normal_color">@color/material_grey_500</item>
+        <item name="step_activated_color">@color/material_blue_500</item>
+        <item name="step_done_icon">@drawable/done</item>
+        <item name="step_animation_duration">@android:integer/config_shortAnimTime</item>
+        <item name="step_line_color">@color/material_grey_500</item>
+        <item name="step_error_highlight_color">@color/material_red_500</item>
+    </style>
+
+    <style name="TextAppearance.Widget.Stepper.Done" parent="TextAppearance.MaterialCompat.Body1">
+
+    </style>
+
+    <style name="TextAppearance.Widget.Stepper.Selected" parent="TextAppearance.MaterialCompat.Body2">
+
+    </style>
+
+    <style name="TextAppearance.Widget.Stepper.Normal" parent="TextAppearance.MaterialCompat.Body1">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_compinfo"
+            android:icon="@drawable/ic_flare_black_24dp"
+            android:title="Vision, Mission Statement" />
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/ic_scanner_black_24dp"
+            android:title="QR Code Scan" />
+        <item
+            android:id="@+id/nav_qr"
+            android:icon="@drawable/ic_scanner_black_24dp"
+            android:title="Wifi QR Code" />
+        <item
+            android:id="@+id/nav_fdesk"
+            android:icon="@drawable/ic_scanner_black_24dp"
+            android:title="Front Desk Support" />
+
+    </group>
+
+    <item android:title="Troubleshooting">
+        <menu>
+            <item
+                android:id="@+id/nav_tro_fibro"
+                android:icon="@drawable/ic_fibroniks"
+                android:title="Fibroniks" />
+            <item
+                android:id="@+id/nav_tro_mpls"
+                android:icon="@drawable/ic_fibroniks"
+                android:title="MPLS" />
+            <item
+                android:id="@+id/nav_tro_wimax"
+                android:icon="@drawable/ic_wifi_24dp"
+                android:title="WiMax" />
+            <item
+                android:id="@+id/nav_tro_vsat"
+                android:icon="@drawable/ic_satellite_24dp"
+                android:title="VSAT" />
+            <item
+                android:id="@+id/nav_tro_email"
+                android:icon="@drawable/ic_email_24dp"
+                android:title="E-mail" />
+            <item
+                android:id="@+id/nav_tro_dns"
+                android:icon="@drawable/ic_cloud_24dp"
+                android:title="DNS" />
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_zol_self_quiz"
+                android:icon="@drawable/ic_assessment_black_24dp"
+                android:title="Personal Knowledge Quiz" />
+            <item
+                android:id="@+id/nav_zol_directory"
+                android:icon="@drawable/ic_phone_24dp"
+                android:title="ZOL Directory" />
+            <item
+                android:id="@+id/nav_call_centre_manual"
+                android:icon="@drawable/ic_manual_24dp"
+                android:title="ZOL Call Centre Manual" />
+            <item
+                android:id="@+id/nav_other_banking"
+                android:icon="@drawable/ic_money_24dp"
+                android:title="ZOL Bank Accounts" />
+            <item
+                android:id="@+id/nav_other_fup"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Fair Usage Policy (FUP)" />
+            <item
+                android:id="@+id/nav_pilot_alpa"
+                android:icon="@drawable/ic_font_black_24dp"
+                android:title="Pilot's Alphabet" />
+        </menu>
+    </item>
+
+</menu>

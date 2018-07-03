@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zw.co.vokers.zoledge.utils.MetaballMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/outlook_metaball_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="45dp"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    app:backgroundColor="@color/colorPrimary"
+    app:metaballColor="@android:color/white"
+    app:backgroundShapeRadius="15dp"
+    app:needsElevation="true">
+
+    <zw.co.vokers.zoledge.utils.MetaballMenuImageView
+        android:id="@+id/outlook1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:defaultImage="@mipmap/bwoutlook2007"
+        app:selectedImage="@mipmap/outlook2007"/>
+
+    <zw.co.vokers.zoledge.utils.MetaballMenuImageView
+        android:id="@+id/outlook2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:defaultImage="@mipmap/bwoutlooknew"
+        app:selectedImage="@mipmap/outlooknew"
+        />
+
+    <zw.co.vokers.zoledge.utils.MetaballMenuImageView
+        android:id="@+id/outlook3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:defaultImage="@mipmap/bwoutlookprob"
+        app:selectedImage="@mipmap/outlookprob"
+        />
+
+</zw.co.vokers.zoledge.utils.MetaballMenu>

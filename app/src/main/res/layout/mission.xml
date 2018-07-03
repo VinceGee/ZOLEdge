@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/margin_medium">
+
+    <zw.co.vokers.zoledge.utils.VinceTextView
+        android:id="@+id/mymission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZOL Mission Statement"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="@dimen/margin_small"/>
+
+    <zw.co.vokers.zoledge.utils.VinceTextView
+        android:id="@+id/actmission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mission"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_below="@id/mymission"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="@dimen/margin_small"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <zw.co.vokers.zoledge.utils.VinceTextView
+        android:id="@+id/eptitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="bottom"
+        android:text="Blacklisting/Whitelisting Email Addresses or Domains"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <zw.co.vokers.zoledge.utils.ExpandableTextView
+        android:id="@+id/expand_text_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        expandableTextView:maxCollapsedLines="4">
+
+        <zw.co.vokers.zoledge.utils.VinceTextView
+            android:id="@+id/expandable_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/text2"
+            android:textSize="16sp"
+            android:textColor="#666666" />
+
+        <ImageButton
+            android:id="@+id/expand_collapse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_gravity="right|bottom"
+            android:background="@android:color/transparent"/>
+    </zw.co.vokers.zoledge.utils.ExpandableTextView>
+
+</LinearLayout>

@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="@color/colorPrimary"
+            app:titleEnabled="false">
+
+            <ImageView
+                android:id="@+id/logoView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:layout_collapseMode="parallax"
+                android:scaleType="centerCrop"
+                android:src="@drawable/edgebg"/>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/bstoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:title="ZOL Edge"/>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:paddingTop="32dp"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10sp"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="3dp"
+                    android:weightSum="1">
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"
+                        android:id="@+id/bs_name"
+                        android:text="Base Station Name"
+                        android:textSize="22sp"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bSummary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Base Station ID:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actBsid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bSummary"
+                        android:text="100123" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bSiteNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Site Number:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actSiteNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bSiteNumber"
+                        android:text="100123" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bSiteId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Site ID:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actSiteId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bSiteId"
+                        android:text="100123" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bSiteName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Site Name:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actSiteName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bSiteName"
+                        android:text="Kuwadzana" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bCellName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Cell Name:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actCellName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bCellName"
+                        android:text="Kuwadzana" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bCellId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Cell ID:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actCellId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bCellId"
+                        android:text="123" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bSectorId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Sector ID:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actSectorId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bSectorId"
+                        android:text="123" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bDistrict"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="District:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actDistrict"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bDistrict"
+                        android:text="Harare" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bAreaName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Area Name:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actAreaName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bAreaName"
+                        android:text="Harare" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bLongitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Longitude:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actLongitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bLongitude"
+                        android:text="31.2222222" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bLatitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Latitude:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actLatitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bLatitude"
+                        android:text="31.2222222" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bCoverageType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Coverage Type:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actCoverageType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bCoverageType"
+                        android:text="Urban" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bCenterFreq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Center Frequency:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actCenterFreq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bCenterFreq"
+                        android:text="1600MHz" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bBandwidth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Bandwidth:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actBandwidth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bBandwidth"
+                        android:text="1600MHz" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+
+                    >
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/bOperatorId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Operator ID:"
+                        android:textColor="#ffffff"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <zw.co.vokers.zoledge.utils.VinceTextView
+                        android:id="@+id/actOperator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:paddingStart="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingEnd="5sp"
+                        android:paddingRight="5sp"
+                        android:layout_below="@id/bOperatorId"
+                        android:text="1600MHz" />
+                </RelativeLayout>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <zw.co.vokers.zoledge.utils.ScalingLayout
+        android:id="@+id/scalingLayout"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        app:radiusFactor="1"
+        android:layout_gravity="center_horizontal"
+        app:layout_behavior="zw.co.vokers.zoledge.utils.ScalingLayoutBehavior">
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/call_now"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imageViewWatchNow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    app:srcCompat="@drawable/ic_call_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/imageViewWatchNow"
+                    android:layout_toEndOf="@id/imageViewWatchNow"
+                    android:gravity="center"
+                    android:text=""
+                    android:layout_marginLeft="8sp"
+                    android:layout_marginStart="8sp"
+                    android:textColor="#ffffff"
+                    android:singleLine="true"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>-->
+
+    </zw.co.vokers.zoledge.utils.ScalingLayout>
+
+</android.support.design.widget.CoordinatorLayout>

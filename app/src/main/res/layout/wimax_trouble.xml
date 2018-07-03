@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.TroubleWimax">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tro_wimax_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="ZOL Edge"/>
+
+    <zw.co.vokers.zoledge.utils.HorizontalScrollMenuView
+        android:id="@+id/wimax_horizontal_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundMenuColor="@color/colorPrimary"
+        app:backgroundNotifications="@color/colorAccent"
+        app:icon_height="50dp"
+        app:icon_width="50dp"
+        app:item_backgroundColor="@color/colorPrimary"
+        app:item_colorSelected="#ffffff"
+        app:item_textColor="#ffffff" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/wimax_pager"
+        android:layout_below="@id/wimax_horizontal_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

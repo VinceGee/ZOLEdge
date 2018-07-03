@@ -1,0 +1,867 @@
+<resources>
+    <string name="app_name">ZOL Edge</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hint_search">Search </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="name">Name</string>
+    <string name="logo">Logo</string>
+    <string name="location">Location</string>
+    <string name="stadium">Stadium</string>
+    <string name="league">League</string>
+    <string name="coach">Coach</string>
+    <string name="star">Star</string>
+
+    <!-- Vertical Stepper View Sample Item -->
+    <string name="content_step_0">This is the first step. Click OK button to next step.<br/><br/><br/><br/>Test Message.</string>
+    <string name="content_step_1">This is the second step. Click OK button to next step or Cancel button to previous step.<br/><br/><br/><br/>The summary text of each step is optional. If you haven\'t set, summary view won\'t be displayed.</string>
+    <string name="content_step_2">This is the last step. You can finish steps now.</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+    <string name="motto">You deserve to live like this.</string>
+    <string name="frontdesk"><![CDATA[
+    1. When a client returns an ONT or any equipment, you need to record it in the Goods Returned Book.<br/><br/>
+    2. When any equipment is returned you need to record it in the Delivery Note book.<br/><br/>
+    ]]></string>
+
+    <string name="manual"><![CDATA[
+    1. Customer care agents are sworn to secrecy with regard to any information acquired during the performance of their duties.<br/><br/>
+    2. Absence from duty without permission is a serious offence.<br/><br/>
+    3. Punctuality. Everyone is expected to be logged in and ready to work a minimum of 5 minutes before their shift starts.<br/><br/>
+    4. Daily shift meetings will be held before main 8 am shift chaired by the Manager/ Supervisor/ Team leader. Kick off time for these meetings will be 7:45am<br/><br/>
+    5. No agent may leave the room whilst on duty without permission or the express knowledge of the supervisor. Unsolicited movement from workstations is not allowed.<br/><br/>
+    6. The habit of quiet and distinct speech should be cultivated. Never shout into the telephone, speak naturally and clearly. Remember there are other people trying to assist clients as well. <br/><br/>
+    7. No excessive use of cellphones whilst on shift. Personal calls for agents are not permitted unless there is an emergency (in which case the Supervisor/Manager must be informed and this must be kept to a minimum. Phones to be on silent/ vibrate, out of sight. <br/><br/>
+    8. Peace and quiet in the call centre is essential and loud speech and laughter is prohibited. Background noise contributes to company image either positively or negatively. <br/><br/>
+    9. Customer care agents are required to concentrate on their work, social discussions to be restricted to breaks and lunch hour. <br/><br/>
+    10. The computer and associated equipment (CSR workstation) must be kept clean and tidy. No eating at the workstations. <br/><br/>
+    11. Answer the telephone as quickly as possible in order not to keep others waiting. The phone should be answered within three rings. <br/><br/>
+    12. Never leave your phone off the hook. This is neglecting duty. Log in and out of the phone system correctly. <br/><br/>
+    13. Avoid distraction like talking, eating and shuffling of papers in the background, whilst dealing with a customer. <br/><br/>
+    14. Books or other loose items (eg. Bags etc) not required must be kept in lockers. Keep the workstation as clear as possible. <br/><br/>
+    15. No friends or visitors are allowed in the call centre (even ZOL staff unless working on a business/ customer issue). <br/><br/>
+    16. Social visits to other departments are not allowed. Supervisor must be informed of business visits to such departments. <br/><br/>
+    17. No music to be played in the call centre. No downloading of music/ torrents/ non-work related material. <br/><br/>
+    18. Remember to call ahead of time if you are unable to report for duty for any reason. This will allow alternative shift arrangements to be made. <br/><br/>
+    19. Do not use the internet to access sites other than the work tools required to execute your duties whilst on shift namely (PRISM, RT Trackit, PRTG, Live support etc). Screen monitoring/ capturing tools will be active and if restricted websites are found open on your machines this will be regarded as insubordination.<br/><br/><br/><br/>
+
+    <h3>Telephone Operation Procedures</h3><br/>
+
+    1. Volume should be on 5 always– it’s a MUST!!! <br/><br/>
+    2. Every call received must be ticketed under the Helpdesk queue. Always have RT helpdesk ticket open and ready to record the caller’s details. <br/><br/>
+    3. Always ask for the customer’s ZOL ID, username before proceeding with the call to ensure you have their details should the call drop. <br/><br/>
+    4. Do a customer contact details update on every interaction to ensure we have a fully updated database with as many alternative contact numbers and email addresses as possible. <br/><br/>
+    5. Make sure you know how to put customers on hold, transfer them etc. to avoid incorrectly disconnecting the calls <br/><br/>
+    6. When transferring calls, advise the recipient of the transfer, the caller’s name and the nature of their enquiry to avoid the caller having to repeat themselves. <br/><br/>
+    7. Never attempt to transfer a call more than once. Get the caller’s number and ask the appropriate area to return their call. Unless the customer insists on waiting (especially when they are highly irate) <br/><br/>
+    8. When placing customers on hold, check back regularly to see if they are happy to remain on hold. If there is a long delay, explain why and keep them informed. <br/><br/><br/><br/>
+
+    <h3>A guide to Call Centre Phrases</h3> <br/>
+     Always answer the phone promptly, ideally within 3 rings, even if it is not your own. <br/><br/>
+     Use a friendly tone on the phone - your voice represents the organization. <br/><br/>
+
+    <h3> Welcome the caller by saying:</h3>  <br/>
+
+     Thank you for calling ZOL <br/><br/>
+     {YOUR NAME} speaking <br/><br/>
+     What can I do to provide you with excellent service today? <br/><br/>
+     Identify and use the caller’s name. <br/><br/>
+     Concentrate on what the caller is saying. <br/><br/>
+     Don’t make assumptions or interrupt unnecessarily. <br/><br/>
+     Tell the caller what you intend to do to help them. <br/><br/>
+     Always look for positive solutions. <br/><br/>
+     Always provide alternatives and assistance for the customer. <br/><br/><br/><br/>
+
+    <h3>Close the call by saying:</h3> <br/>
+     May I do anything else for you? <br/><br/>
+     Thank you for calling. <br/><br/>
+     Good bye. <br/><br/>
+     Make sure you keep the customer informed of any follow up action to be taken. <br/><br/>
+     Make sure you complete any follow-up action for the customer. <br/><br/>
+     If you have passed the enquiry on to someone else, ensure they complete the necessary follow-up action and always create a ticket when you escalate.<br/><br/>]]></string>
+
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="barcode_header">Click &quot;Read Barcode&quot; to read a barcode</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+    <string name="msg_no_ticket_found">No ticket found. Try the QR Codes again.</string>
+    <string name="lbl_duration">DURATION</string>
+    <string name="lbl_genre">MEAL DESCRIPTION</string>
+    <string name="lbl_rating">WALLET BALANCE</string>
+    <string name="lbl_price">COST</string>
+    <string name="btn_buy_now">BUY NOW</string>
+    <string name="no_money">INSUFFICIENT FUNDS</string>
+    <string name="ok">Ok</string>
+
+    <string name="fup_text">
+        <![CDATA[
+<h3>1. Why the Fair Usage Policy</h3>	\n\nAs is the case with all broadband services throughout the world, ZOL’s customers share the available
+bandwidth capacity that connects them to world. The Fair Usage Policy exists to ensure that an optimum Internet experience is available to the
+maximum number of users at peak periods. The policy regulates the usage of one user over another at peak times so that Internet performance is not affected
+ for the rest of the subscriber base.\n\n
+
+<br/>
+<h3>2. How does the Fair Usage Policy work?</h3>	<br/>ZOL leads the industry with the most innovative and dynamic bandwidth management system.
+Each subscriber is treated on an individual link basis and experiences varied speed priority based on both package subscription and recent usage profile.
+As a result, our unique system only applies traffic management to the heaviest users in each package class for the shortest period possible, during peak periods.
+This results in reduced speeds when accessing the Internet. Speeds return to normal based on the affected subscriber’s usage patterns.\n<br/><br/>
+
+ The vast majority of our customers never experience active traffic management on their link, provided they are on a package that is suitable to their usage habits and requirements.\n
+<br/>
+
+<h3>Important to note:</h3>	<br/> Each customer’s usage trend during peak periods directly impacts their own speeds and not necessarily their neighbours’ speeds.\n\n
+<br/>
+
+<h3>Peak period:</h3>	    <br/> 7am to 6pm. Usage outside these times does not affect Package Health colour.\n<br/>
+
+<h3>3. How will I know when the Fair Usage Policy is being applied?</h3><br/>ZOL initiated an Internet service performance measure represented as <b>Package Health</b>,
+to give users visibility into their usage. This is a basic step that allows users to better manage their bandwidth usage trend. The health icon can be viewed on
+MyZOL or your ZOL link portal page and is represented by a coloured bar “graph”.\n\n<br/><br/>
+
+You will receive an in-browser pop-up notification when the status of your Package Health changes. Please note that when you close the notification box, it will be removed and you will not receive a repeat notification.\n<br/>
+<h3>Health Tip: We recommend scheduling your downloads, updates and backups between 11:00pm and 06:00am. Doing this will not degrade your Package Health.</h3>	<br/>
+
+
+
+]]>
+    </string>
+    <string name="fup_intro">To ensure that all ZOL customers enjoy high levels of service availability, ZOL Zimbabwe employs a Fair Usage Policy. This policy forms
+        part of/and is incorporated in the ZOL Terms and Conditions for Internet Service. The following information will assist you in managing your experience to
+        ensure that you make the most of your ZOL Internet service.</string>
+    <string name="reasons_reprov">
+        <![CDATA[1. Incorrect Login Information. e.g. username@liquidtelecom.net. In this case provide the correct username and password.<br/><br/>
+    2. ONT could be switched off, confirm with client if ONT is on.<br/><br/>
+    3. Power Levels are out of range. In this case reset ONT over the phone and check the power levels with client, ask NOC to reprovision with the power level readings.<br/><br/>]]></string>
+
+    <string name="red_los_text">
+        <![CDATA[1. If the LOS light is blinking slowly(once every two seconds), the RX optical power of the ONT is lower than the optical receiver sensitivity.<br/><br/>
+    2. If the LOS light is blinking red, means there is no fibre, check optical power levels are within range and the patch cord. (Disconnecting and reconnecting patch cord may help) If that does not work, Log a ticket with GPON Support.<br/><br/>
+    3. If the LOS is blinking quickly (twice per second), the OLT detects that the ONT is a rogue ONT.<br/><br/>
+    4. Optimum Power levels are: RX = -17 to -27dBm; TX = 2dBm.<br/><br/>
+
+]]></string>
+
+    <string name="pon_text">
+        <![CDATA[1. The PON should always be on (solid green), meaning the connection between the ONT and the OLT is UP and provisioned.<br/><br/>
+    2. If the PON light is blinking rapidly (twice per second), the ONT is attempting to set up a connection to the OLT(ONT live but not provisioned).<br/><br/>
+    3. If the PON blinks quickly (twice per second), the OLT detects that the ONT is a rogue ONT.<br/><br/>
+    4. If the PON is flashing, check if the ONT was provisioned, it needs to be reprovisioned if its flashing.<br/><br/>
+]]></string>
+
+    <string name="outlook_text">
+        <![CDATA[1. The PON should always be on (solid green), meaning the connection between the ONT and the OLT is UP and provisioned.<br/><br/>
+    2. If the PON light is blinking rapidly (twice per second), the ONT is attempting to set up a connection to the OLT(ONT live but not provisioned).<br/><br/>
+    3. If the PON blinks quickly (twice per second), the OLT detects that the ONT is a rogue ONT.<br/><br/>
+    4. If the PON is flashing, check if the ONT was provisioned, it needs to be reprovisioned if its flashing.<br/><br/>
+]]></string>
+
+    <string name="applemail_text">
+        <![CDATA[Basically, the Outlook setting for Apple devices are the same as the windows devices.However the settings might be different when you wan to setup the default Apple mail client.<br/><br/>
+    2. If the PON light is blinking rapidly (twice per second), the ONT is attempting to set up a connection to the OLT(ONT live but not provisioned).<br/><br/>
+    3. If the PON blinks quickly (twice per second), the OLT detects that the ONT is a rogue ONT.<br/><br/>
+    4. If the PON is flashing, check if the ONT was provisioned, it needs to be reprovisioned if its flashing.<br/><br/>
+]]></string>
+
+    <string name="ecowebi600_text">
+        <![CDATA[ Default IP: 192.168.100.1<br/><br/>
+        Username: admin<br/>
+        Password: admin<br/><br/>
+    Logging in will show you the connection status. Select the last option, labelled \"WiMax\" to your left. Select the \"Channel Settings\", the Bandwidth should be on 5M. Search mode should be on Frequency List.<br/><br/>
+    The Frequency list should be as follows:<br/>
+    &emsp;1. 2535000KHz<br/>
+    &emsp;2. 2540000KHz<br/>
+    &emsp;3. 2545000KHz<br/>
+    &emsp;4. 2550000KHz<br/>
+    &emsp;5. 2555000KHZ<br/><br/>
+
+    Then select \"Authentication\". Authentication Select should be on \"EAP-TTLS/MSCHAPv2\".<br/>
+    &emsp;Default Identity: Prism Username<br/>
+    &emsp;Password: Prism Password<br/>
+    &emsp;Anonymous Identity: @zol.co.zw<br/><br/>
+]]></string>
+
+    <string name="mifi_text">
+        <![CDATA[ The MiFi Wimax modem is a mobile UBS Wimax modem with WiFi capable of connecting more than one WiFi device on the go. The modem works on the ZOL-Econet 5Mhz frequency.<br/><br/>
+
+        Default IP: 192.168.0.254<br/><br/>
+        Username: admin<br/>
+        Password: admin<br/><br/>
+    Once logged in, click on “Wimax” and you will be taken to the Scanner settings. Edit your frequencies as follows. The bandwidth for all frequencies is 5MHz.<br/><br/>
+    The Frequency list should be as follows:<br/>
+    &emsp;1. 2535000KHz<br/>
+    &emsp;2. 2540000KHz<br/>
+    &emsp;3. 2545000KHz<br/>
+    &emsp;4. 2550000KHz<br/>
+    &emsp;5. 2555000KHZ<br/><br/>
+
+    Click apply to save changes.<br/><br/>
+
+    Click on \"Authentication\".<br/>
+    Select your Phase 1 Authentication to \"EAP-TTLS\" and Phase 2 Authentication to \"MS-CHAPv2\".<br/>
+    &emsp;Default Identity: Prism Username<br/>
+    &emsp;Password: Prism Password<br/>
+    &emsp;Identity: @zol.co.zw<br/><br/>
+    &emsp;NB:Tick only the box Auto Prepend Auth Mode and Ignore Cert Verification.<br/><br/>
+
+    Once you have applied the changes click on the reboot icon, after the device boots wait about 30-150 seconds after which the MiFi WImax modem connects to the internet, given the Wimax account
+    configured is paid up.<br/><br/>
+
+    <h4><u>Changing the SSID and Wireless Key:</u></h4>
+
+    Click on \"Networking\", and edit your SSID and security type under SSID settings.<br/>
+    WLAN SSID = Desired Wireless SSID<br/>
+    Encryption Type = WPA Personal<br/>
+    Under WPA Settings, type in your desired Pre-shared key aka Wireless password.<br/><br/>
+
+    When done click on \"Apply\", then click \"Next\".<br/><br/>
+
+    If you desire to set access control lists you may click on next and then enter the MAC addresses of your devices as desired.<br/><br/>
+]]></string>
+
+    <string name="gpidu_text">
+        <![CDATA[ The Indoor antenna works on the ZOL-Econet 5Mhz frequency.<br/><br/>
+
+        Default IP: 192.168.15.1 <br/><br/>
+        Username: admin<br/>
+        Password: admin<br/><br/>
+    Once logged in, click on \"Mobile Network\" and you will be taken to the Mobile Network settings. Select Technology on the left menu. Under the Basic tab, under \"Mobile Tech Mode Settings\", make sure you have
+    selected \"WiMAX Only\", then apply.<br/><br/>
+
+    Select the WiMAX tab, at the top. Select the \"Scanner\" sub-menu. Scroll down to the \"Channel Table\" and set the table as follows:<br/>
+    The Frequency list should be as follows:<br/>
+    &emsp;First Frequency: 2535000KHz<br/>
+    &emsp;Last Frequency: 2555000KHZ<br/>
+    &emsp;Step: 5000KHz<br/>
+    &emsp;Bandwidth: 5MHz<br/>
+    &emsp;Make sure the Channel is Enabled.<br/>
+    &emsp;Then Apply.<br/><br/>
+
+    Click apply to save changes.<br/><br/>
+
+    Click on \"Authentication\".<br/>
+    Select your Phase 1 Authentication to \"EAP-TTLS\" and Phase 2 Authentication to \"MS-CHAPv2\".<br/>
+    &emsp;Username: Prism Username<br/>
+    &emsp;Password: Prism Password<br/>
+    &emsp;Identity: @zol.co.zw<br/>
+    &emsp;Make sure \"Use Realm\" and \"Random Identity\" are selected.<br/><br/>
+
+
+    <h4><u>Changing the SSID and Wireless Key:</u></h4>
+
+    Click on \"WiFi\" then on \"Settings\", and edit your SSID and security type under SSID settings.<br/>
+    Network Name(SSID) = Desired Wireless SSID<br/>
+    &emsp;Radio Channel: Auto<br/>
+    &emsp;Working Mode: 802.11b/g/n<br/>
+    &emsp;Bandwidth: 20M/40M<br/>
+    &emsp;RTS Threshold: 2347<br/>
+    &emsp;CTS Protection: Auto<br/>
+    &emsp;Preamble Length: Short Preamble<br/>
+    &emsp;SSID Broadcast: Enable<br/><br/>
+
+    Scroll down to Security.<br/>
+    Authentication = WPA/WPA2-Personal Mixed Mode<br/>
+    Encryption = TKIP/AES<br/>
+    Rekey Interval = 3600<br/>
+    Key PassPhrase = Your desired password.<br/><br/>
+
+    When done click on \"Apply\".<br/><br/>
+
+]]></string>
+
+    <string name="airspan_text">
+        <![CDATA[ The Airspan kit on 16e platform, has two main components, viz the Outdoor Unit (ODU) and the PoE Injector.<br/><br/>
+
+        The PoE injector has 3(three) ports: Data OUT (ODU), Data IN (Ethernet) and Power (mains power input). <br/><br/>
+
+        Default IP: 10.1.1.254 <br/><br/>
+        Username: admin<br/>
+        Password: admin<br/><br/>
+    Once logged in, click on “Wimax” and you will be taken to the Scanner settings. Edit your frequencies as follows. The bandwidth for all frequencies is 5MHz.<br/><br/>
+    The Frequency list should be as follows:<br/>
+    &emsp;1. 2535000KHz<br/>
+    &emsp;2. 2540000KHz<br/>
+    &emsp;3. 2545000KHz<br/>
+    &emsp;4. 2550000KHz<br/>
+    &emsp;5. 2555000KHZ<br/><br/>
+
+    Click apply to save changes.<br/><br/>
+
+    Click on \"Authentication\".<br/>
+    Select your Phase 1 Authentication to \"EAP-TTLS\" and Phase 2 Authentication to \"MS-CHAPv2\".<br/>
+    &emsp;Username: Prism Username<br/>
+    &emsp;Password: Prism Password<br/>
+    &emsp;Identity: @zol.co.zw<br/><br/>
+    &emsp;Make sure \"Use Realm\" and \"Random Identity\" are selected.<br/><br/>
+
+    Once you have applied the changes click on the reboot icon, after the device boots wait about 30-150 seconds after which the ODU connects to the internet, given the Wimax account
+    configured is paid up.<br/><br/>
+]]></string>
+
+    <string name="gen_wimax_text">
+        <![CDATA[ For all WiMax connections to be good, you need to have good signal strength. The strength can be measured by RSSI and CINR values.<br/><br/>
+
+        Received Signal Strength Indicator (RSSI) is a measurement of the power present in a received radio signal. RSSI is usually invisible to a user of a receiving device.<br/><br/>
+
+        Carrier to Interference Noise Ratio (CINR) which is basically "signal to noise ratio" in dB.<br/>
+
+        RSSI values:<br/>
+        &emsp;Excellent:&emsp;	Above -65 (closer to 0 is better)<br/>
+        &emsp;Good:&emsp;		-65 to -75<br/>
+        &emsp;Fair:&emsp;		-75 to -85<br/>
+        &emsp;Poor:&emsp;		Below -85<br/><br/>
+
+        CINR values:<br/>
+        &emsp;Excellent:&emsp;	Above 25 (but less than 32)<br/>
+        &emsp;Good:&emsp;		18 to 25<br/>
+        &emsp;Fair:&emsp;		15 to 18<br/>
+        &emsp;Poor:&emsp;		Below 15<br/><br/>
+]]></string>
+
+    <string name="dns_text">
+        <![CDATA[ Business Wimax Accounts:<br/>
+        &emsp;Business Wimax accounts qualify at the Small office level for all Wimax plans<br/><br/>
+
+        Domain Upgrade Costs<br/>
+        &emsp;5GB Disk Quota -	$5<br/>
+        &emsp;10 User Licenses -	$5<br/>
+        &emsp;1 domain hosting license for email and website -	$3<br/><br/>
+
+        After a client is registered successfully they will receive the following email:<br/><br/>
+        Welcome to ZOL - Domain name<br/><br/>
+        Good day, <br/>
+
+Thank you for signing up with sslZOL. Your account is now ready. Your username and password are:<br/><br/>
+
+Default Domain: <domain name><br/>
+
+Admin User Info:<br/>
+Login: <admin account>  <br/>
+Password: <password>  <br/><br/>
+
+These can be used for logging into the sslZOL web portal at https://webmail.sslzol.co.zw as well as for POP, IMAP, FTP and other
+services, as appropriate.  Your password can be changed online through the sslZOL web portal.<br/><br/>
+
+We suggest that you now login to the sslZOL web portal, update your contact information, read the new user help, and setup your
+email accounts: see the "Administration," "My Profile," and "My Preferences" pages under the "account" menu once you log in.
+You may create additional users for your account using the tools in the "Administration" page. <br/><br/>
+
+sslZOL has extensive online help in its web portal. After you log in, you may be interested in the documents on:<br/><br/>
+ &emsp;* New User Help<br/>
+ &emsp;* Configuring Email Client Programs<br/>
+ &emsp;* New Account Administrator Help<br/>
+ &emsp;* Uploading Files to the Web Server<br/>
+ &emsp;* Configuring Your Domain\'s DNS<br/>
+ &emsp;* Adding Domains to Your Account<br/>
+        <br/><br/>
+
+        <h4>Internal - Info required when requesting domain to be added on luxsci</h4>
+
+    Kindly add the domain on luxsci:<br/>
+    ZOL ID : <br/>
+    Domain Name: <br/>
+    New/Transfer :<br/>
+    Owner Name :(Usually same as company name)<br/>
+    Owner Company :<br/>
+    Physical Address :<br/>
+    Postal Address :<br/>
+    Owner City : <br/>
+    Owner Country :<br/>
+    Owner Phone :<br/>
+    Owner Fax : <br/>
+    Owner Email : <br/>
+    Org Description: (What the company does)<br/><br/>
+
+    Client Package type:<br/>
+
+    The total number of domains on account:<br/>
+    Package number of emails:<br/>
+    Package disk space: <br/>
+
+    Client request ticket:<br/><br/>
+]]></string>
+
+    <string name="dnsreq_text">
+        <![CDATA[
+&emsp;1. An application letter (preferably on a letterhead, with ZOL-ID listed) specifying the domain name.<br/>
+&emsp;2. A signed copy of the ZISPA Terms & Conditions available from: http://zispa.org.zw/ZISPA_Terms_and_Conditions.pdf <br/>
+&emsp;3. A copy of your I.D. <br/>
+&emsp;4. A copy of proof of residence. <br/>
+&emsp;5. Registration fee of  $20 per annum. <br/>
+&emsp;6. Broadband account with ZOL of at least $39 per month.\n<br/><br/>
+
+For an existing domain hosted by another service provider or platform,we require you to make a request to the company hosting your
+domain to release your domain to ZOL. They will provide you with an EPP Code/key.<br/>
+
+We then require you to forward this code and email to ZOL and also to inform ZOL that you want your domain to be hosted by ZOL.<br/>
+
+You can send the e-mail to dns@teamzol.co.zw and cc dnsadmin@zol.co.zw\n<br/>
+
+Kindly provide us with the following information:<br/>
+&emsp;ZOL ID : <br/>
+&emsp;Domain Name: <br/>
+&emsp;New/Transfer :<br/>
+&emsp;Owner Name :(Usually same as company name)<br/>
+&emsp;Owner Company :<br/>
+&emsp;Physical Address :<br/>
+&emsp;Postal Address :<br/>
+&emsp;Owner City : <br/>
+&emsp;Owner Country :<br/>
+&emsp;Owner Phone :<br/>
+&emsp;Owner Fax : <br/>
+&emsp;Owner Email : <br/>
+&emsp;Org Description: (What the company does)<br/><br/>
+]]></string>
+
+    <string name="dnsusers_text">
+        <![CDATA[  To add users (email addresses) to your domain please do the following:\n<br/>
+
+&emsp;1. Log in on the following address with your admin account and password: https://webmail.sslzol.co.zw/perl/member/members.pl <br/>
+&emsp;2. Click on Account then Account Administration<br/>
+&emsp;3. Click on the Users tab.<br/>
+&emsp;4. To the left of your screen, click on Add New User.<br/>
+&emsp;5. Enter the new user\'s email address > Click on Verify Address button<br/>
+&emsp;6. Enter the required user details (i.e. Full Name, Password, Retype Password etc)<br/>
+&emsp;7. Finally, click on the Create User button to complete the addition of the user.<br/>
+&emsp;8. Repeat the process for each new user.\n<br/><br/>
+
+Kindly add all the usernames/email addresses that you want onto the on our platform and let us know once you have done so and we
+will subsequently proceed to finalize the transfer of your domain which includes updating of mx records. We will only finalize the
+domain transfer once you have done so to avoid loss of any incoming emails.\n<br/><br/>
+
+Server settings: Configuring email programs \n<br/>
+You can edit your current email configurations with the following settings.<br/>
+&emsp;*Incoming mail server (POP)  :  mail-3.sslzol.co.zw<br/>
+&emsp;*Outgoing mail server (SMTP) : mail-3.sslzol.co.zw<br/>
+&emsp;*Username is the full email address<br/>
+&emsp;*Password is the password configured in webmail<br/>
+&emsp;*Click on More settings and go to the Outgoing Server Tab. Enable My Outgoing server (SMTP) requires authentication. <br/>
+&emsp;*Use same settings as my incoming mail server will automatically be selected.<br/>
+&emsp;*Click on the Advanced Tab<br/>
+&emsp;*Enable This server required an encrypted connection (SSL). This should change your Incoming server (POP3) port number to 995<br/>
+&emsp;*Outgoing server (SMTP) 6465<br/>
+&emsp;*Select SSL for Use the following type of encrypted connection<br/>
+&emsp;*Click OK > Next > Finish<br/>
+Your account is ready for use. \n<br/><br/>
+
+Please feel free to contact us at dns@teamzol.co.zw and cc dnsadmin@zol.co.zw with any questions you may have.\n<br/><br/>
+
+NOTE: Kindly let us know once you have finished setting up your mailboxes.<br/><br/>
+]]></string>
+
+    <string name="gpodu1_text">
+        <![CDATA[ The Outdoor Greenpacket Wimax modem is an Outdoor Antenna on 16e platform .The antenna works on the ZOL-Econet 5Mhz frequency and has the same interface as the Indoor Green Packet DT-235.<br/><br/>
+
+        Default IP: 192.168.15.1 <br/><br/>
+        Username: admin<br/>
+        Password: admin<br/><br/>
+    Once logged in, click on \"Mobile Network\" and you will be taken to the Mobile Network settings. Select Technology on the left menu. Under the Basic tab, under \"Mobile Tech Mode Settings\", make sure you have
+    selected \"WiMAX Only\", then apply.<br/><br/>
+
+    Select the WiMAX tab, at the top. Select the \"Scanner\" sub-menu. Scroll down to the \"Channel Table\" and set the table as follows:<br/>
+    The Frequency list should be as follows:<br/>
+    &emsp;First Frequency: 2535000KHz<br/>
+    &emsp;Last Frequency: 2555000KHZ<br/>
+    &emsp;Step: 5000KHz<br/>
+    &emsp;Bandwidth: 5MHz<br/>
+    &emsp;Make sure the Channel is Enabled.<br/>
+    &emsp;Then Apply.<br/><br/>
+
+    Click apply to save changes.<br/><br/>
+
+    Click on \"Authentication\".<br/>
+    Select your Phase 1 Authentication to \"EAP-TTLS\" and Phase 2 Authentication to \"MS-CHAPv2\".<br/>
+    &emsp;Username: Prism Username<br/>
+    &emsp;Password: Prism Password<br/>
+    &emsp;Identity: @zol.co.zw<br/>
+    &emsp;Make sure \"Use Realm\" and \"Random Identity\" are selected.<br/><br/>
+]]></string>
+
+    <string name="gpodu2_text">
+        <![CDATA[
+        Default IP: 192.168.0.254<br/><br/>
+        Username: admin<br/>
+        Password: admin<br/><br/>
+    Once logged in, click on “Wimax” and you will be taken to the Scanner settings. Edit your frequencies as follows. The bandwidth for all frequencies is 5MHz.<br/><br/>
+    The Frequency list should be as follows:<br/>
+    &emsp;1. 2535000KHz<br/>
+    &emsp;2. 2540000KHz<br/>
+    &emsp;3. 2545000KHz<br/>
+    &emsp;4. 2550000KHz<br/>
+    &emsp;5. 2555000KHZ<br/><br/>
+
+    Click apply to save changes.<br/><br/>
+
+    Click on \"Authentication\" to your left.<br/>
+    Select \"Authentication Mode\" to \"User and device authentication\", Select all options under Data and Key Encryption.<br/>
+    Set EAP Mode to \"EAP-TTLS\" and Anonymous ID to \"@zol.co.zw\".<br/>
+    Set Inner Mode to \"MS-CHAPv2\"<br/>
+    &emsp;Username: Prism Username<br/>
+    &emsp;Password: Prism Password<br/>
+
+    Once you have saved the changes click on the reboot icon, after the device boots wait about 30-150 seconds after which the ODU connects to the internet, given the Wimax account
+    configured is paid up.<br/><br/>
+]]></string>
+
+    <string name="gpodu_text">
+        <![CDATA[ The MiFi Wimax modem is a mobile UBS Wimax modem with WiFi capable of connecting more than one WiFi device on the go. The modem works on the ZOL-Econet 5Mhz frequency.<br/><br/>
+
+        Default IP: 192.168.0.254<br/><br/>
+        Username: admin<br/>
+        Password: admin<br/><br/>
+    Once logged in, click on “Wimax” and you will be taken to the Scanner settings. Edit your frequencies as follows. The bandwidth for all frequencies is 5MHz.<br/><br/>
+    The Frequency list should be as follows:<br/>
+    &emsp;1. 2535000KHz<br/>
+    &emsp;2. 2540000KHz<br/>
+    &emsp;3. 2545000KHz<br/>
+    &emsp;4. 2550000KHz<br/>
+    &emsp;5. 2555000KHZ<br/><br/>
+
+    Click apply to save changes.<br/><br/>
+
+    Click on \"Authentication\".<br/>
+    Select your Phase 1 Authentication to \"EAP-TTLS\" and Phase 2 Authentication to \"MS-CHAPv2\".<br/>
+    &emsp;Default Identity: Prism Username<br/>
+    &emsp;Password: Prism Password<br/>
+    &emsp;Identity: @zol.co.zw<br/><br/>
+    &emsp;NB:Tick only the box Auto Prepend Auth Mode and Ignore Cert Verification.<br/><br/>
+
+    Once you have applied the changes click on the reboot icon, after the device boots wait about 30-150 seconds after which the MiFi WImax modem connects to the internet, given the Wimax account
+    configured is paid up.<br/><br/>
+
+    <h4><u>Changing the SSID and Wireless Key:</u></h4>
+
+    Click on \"Networking\", and edit your SSID and security type under SSID settings.<br/>
+    WLAN SSID = Desired Wireless SSID<br/>
+    Encryption Type = WPA Personal<br/>
+    Under WPA Settings, type in your desired Pre-shared key aka Wireless password.<br/><br/>
+
+    When done click on \"Apply\", then click \"Next\".<br/><br/>
+
+    If you desire to set access control lists you may click on next and then enter the MAC addresses of your devices as desired.<br/><br/>
+]]></string>
+
+    <string name="wimax16d_text">
+        <![CDATA[16D has a similar setup as the 16e, but for this setup the POE is replaced by an Alvarion POE.<br/><br/>
+    2. If the PON light is blinking rapidly (twice per second), the ONT is attempting to set up a connection to the OLT(ONT live but not provisioned).<br/><br/>
+    3. If the PON blinks quickly (twice per second), the OLT detects that the ONT is a rogue ONT.<br/><br/>
+    4. If the PON is flashing, check if the ONT was provisioned, it needs to be reprovisioned if its flashing.<br/><br/>
+]]></string>
+
+    <string name="tu25_text">
+        <![CDATA[1. Run the installation file labelled \"PCW_WAX_ECNZWETU25V1.0.0B03\" whilst your dongle is disconnected from your computer. You will get a prompt to remove or repair your current
+        software installation. Select remove. Click “Next” until the software is successfully uninstalled. Run the installation file again to install the
+        new software.<br/><br/>
+    2. Once the installation has completed, connect your dongle. A configuration interface should pop up automatically after your dongle has been detected.<br/><br/>
+    3. Click on the settings icon (the address book on your bottom left of the configuration screen). Please note you will only be able to click on this if
+    there is signal registering on the dongle.<br/><br/>
+    4. Login is “xxxxmx@zol.co.zw” and password is “xxxxx”<br/><br/>
+    5. Where you have CA certificate, click on the “browse” box (the box with 3 dots in it) and locate the ca.pem file where you saved it on your computer and
+    click open. (the ca.pem file is the certificate attached)<br/><br/>
+    6. Anonymous identity is @zol.co.zw (nothing should be written before the @ sign)<br/><br/>
+    7. Click OK.<br/><br/>
+    8. Click on Connect on the configuration interface. Your dongle should connect<br/><br/>
+
+    The configuration is a once-off process. After that you should be able to connect the way you have always connected with your dongle. If you use your dongle
+     with more than one computer, you will have to do the whole process on the other computers.<br/><br/>
+]]></string>
+
+    <string name="oldoutlook_text">
+        <![CDATA[1. Open Outlook 2007<br/><br/>
+2. Click on the "Tools > Account settings" menu item.<br/><br/>
+3. To add a new account, click on the "New" button.<br/><br/>
+4. Select "Microsoft Exchange, POP3, IMAP, or HTTP", then click next.<br/><br/>
+5. Put a check in the box at the bottom next to "Manually configure server settings or additional server types", and click "Next".<br/><br/>
+6. Select "Internet E-mail" and click "next".<br/><br/>
+7. On the following screen, enter these items in this order:<br/><br/>
+        &emsp;i. Your Name,<br/>
+        &emsp;ii. Your E-mail address, i.e. "xxx@zol.co.zw"<br/>
+        &emsp;iii. Account Type: select "POP3" in the drop down menu.<br/>
+        &emsp;iv. For Incoming mail server (POP3), enter "incoming.zol.co.zw"<br/>
+        &emsp;v. For Outgoing mail server (SMTP), enter "outgoing.zol.co.zw"<br/>
+        &emsp;vi. Type in your User Name, which is your email address in all lower case, "xxx@zol.co.zw".<br/>
+        &emsp;vii. Your password. Note that the password is case sensitive. Check the checkbox to have Outlook remember your password.<br/>
+        &emsp;viii. DO NOT check the "Log on using Secure Password Authentication (SPA)".<br/>
+        &emsp;ix. Click on "More Settings"<br/>
+8. Under "More Settings"<br/><br/>
+        &emsp;o In the "Outgoing Server" tab, you MUST check the box "My outgoing server (SMTP) requires authentication". If you do not do this, you will encounter errors when trying to send email. You can leave "Use same settings as my incoming mail server" selected.<br/>
+        &emsp;o Click on the "Advanced" tab.<br/>
+        &emsp;o At "Incoming server (POP/POP3)", enter port number 110<br/>
+        &emsp;o At "Incoming server (POP/POP3)", uncheck the "This server requires a secure connection (SSL)" checkbox.<br/>
+        &emsp;o At "Outgoing server (SMTP)", Select "None" in the drop down menu to the right of "Use the following type of encrypted connection".<br/>
+        &emsp;o At "Outgoing server (SMTP)", enter port number 25<br/>
+        &emsp;o Click on the "Ok" button.<br/>
+9. Click on the "Next >" button in the "Add New E-mail Account" dialog.<br/><br/>
+10. Click on "Finish".<br/><br/>
+11. Click "Close".<br/><br/>
+]]></string>
+
+    <string name="newoutlook_text">
+        <![CDATA[1. Open Outlook<br/><br/>
+2. Click on the "File > Account settings" menu item.<br/><br/>
+3. To add a new account, click on the "New" button.<br/><br/>
+4. Select "Microsoft Exchange, POP3, IMAP, or HTTP", then click next.<br/><br/>
+5. Put a check in the box at the bottom next to "Manually configure server settings or additional server types", and click "Next".<br/><br/>
+6. Select "Internet E-mail" and click "next".<br/><br/>
+7. On the following screen, enter these items in this order:<br/><br/>
+        &emsp;i. Your Name,<br/>
+        &emsp;ii. Your E-mail address, i.e. "xxx@zol.co.zw"<br/>
+        &emsp;iii. Account Type: select "POP3" in the drop down menu.<br/>
+        &emsp;iv. For Incoming mail server (POP3), enter "incoming.zol.co.zw"<br/>
+        &emsp;v. For Outgoing mail server (SMTP), enter "outgoing.zol.co.zw"<br/>
+        &emsp;vi. Type in your User Name, which is your email address in all lower case, "xxx@zol.co.zw".<br/>
+        &emsp;vii. Your password. Note that the password is case sensitive. Check the checkbox to have Outlook remember your password.<br/>
+        &emsp;viii. DO NOT check the "Log on using Secure Password Authentication (SPA)".<br/>
+        &emsp;ix. Click on "More Settings"<br/>
+8. Under "More Settings"<br/><br/>
+        &emsp;o In the "Outgoing Server" tab, you MUST check the box "My outgoing server (SMTP) requires authentication". If you do not do this, you will encounter errors when trying to send email. You can leave "Use same settings as my incoming mail server" selected.<br/>
+        &emsp;o Click on the "Advanced" tab.<br/>
+        &emsp;o At "Incoming server (POP/POP3)", enter port number 110<br/>
+        &emsp;o At "Incoming server (POP/POP3)", uncheck the "This server requires a secure connection (SSL)" checkbox.<br/>
+        &emsp;o At "Outgoing server (SMTP)", Select "None" in the drop down menu to the right of "Use the following type of encrypted connection".<br/>
+        &emsp;o At "Outgoing server (SMTP)", enter port number 25<br/>
+        &emsp;o Click on the "Ok" button.<br/>
+9. Click on the "Next >" button in the "Add New E-mail Account" dialog.<br/><br/>
+10. Click on "Finish".<br/><br/>
+11. Click "Close".<br/><br/>
+]]></string>
+
+    <string name="proboutlook_text">
+        <![CDATA[ Before troubleshooting anything, test to see if the client is able to login, send and receive emails on the webmail portal.<br/>
+The most common reasons for not being able to send emails through Outlook are wrong Outlook settings.<br/><br/>
+<b>Use the correct Mail Client settings:</b><br/>
+&emsp;• Incoming mail server (POP3/IMAP server): "incoming.zol.co.zw"<br/>
+&emsp;• Outgoing mail server (SMTP server): "outgoing.zol.co.zw"<br/>
+&emsp;• Username: the full e-mail address like "xxx@zol.co.zw".<br/>
+&emsp;• SMTP authentication must be enabled for the login to be successful.<br/>
+&emsp;• Bad Login error message means either the username or password is incorrect.<br/>
+&emsp;• The most common mistake is to leave “My SMTP server requires authentication checkbox” unchecked. This option should always be enabled, since ZOL servers require such authentication.<br/><br/>
+
+]]></string>
+
+    <string name="zol_domain_text">
+        <![CDATA[These are emails under the domain zol.co.zw. ZOL currently offers 3 free such addresses to any unlimited Internet package subscriber
+        should the client request them. The domain is hosted on ssl and settings are as follows:<br/><br/>
+
+        <h4><u>For a client using a ZOL Internet connection:</u></h4>
+        Incoming mail server (POP3)	: incoming.zol.co.zw<br/>
+        Outgoing mail server (SMTP)	: outgoing.zol.co.zw<br/>
+        Username			: full email address<br/>
+        Password			: (as configured by administrator)<br/><br/>
+
+        Go to <b>More settings</b> then <b>Outgoing server tab</b>	: My outgoing  server (SMTP) requires authentication must be enabled and Use same
+        settings as my incoming mail server selected.<br/><br/>
+
+        Go to <b>Advanced tab</b><br/>
+        Incoming (POP3) port number	: 110 <br/>
+        Outgoing (SMTP) port number	: 25 <br/><br/>
+
+        <h4><u>For a client using a non-ZOL Internet connection:</u></h4>
+        You only change the following:\n</br>
+        Outgoing mail server (SMTP)	: (as provided by their ISP)<br/><br/>
+
+        <b>NB</b>: Everything else remains the same, as a client using a ZOL connection.<br/>
+        Should the setting provided by client\'s ISP fail to work or if they were not provided with one, change to SSL settings.<br/>
+
+        <h4><u>For a client using a non-ZOL email account, but uses ZOL Internet services:</u></h4>
+        Settings are as is provided by email service provider.<br/><br/>
+
+]]></string>
+
+    <string name="zol_hosteddomain_text">
+        <![CDATA[These are emails under the client\'s domain e.g. client.com or company.co.zw. Settings on SSL are not affected by the Internet service
+        provider the client uses. They can be using YoAfrica, for example, as their ISP but settings remain constant and are as follows:<br/><br/>
+
+        <h4><u>For domains added onto SSL before April 2014:</u></h4>
+        Incoming mail server (POP3)	: mail-1.sslzol.co.zw<br/>
+        Outgoing mail server (SMTP)	: mail-1.sslzol.co.zw<br/>
+        Username			: full email address<br/>
+        Password			: (as configured by administrator)<br/><br/>
+
+        Go to <b>More settings</b> then <b>Outgoing server tab</b>	: My outgoing  server (SMTP) requires authentication must be enabled and Use same
+        settings as my incoming mail server selected.<br/><br/>
+
+        Go to <b>Advanced tab</b><br/>
+        Incoming (POP3) port number	: 995 (if using IMAP, port is 993) <br/>
+        Outgoing (SMTP) port number	: 6465 <br/><br/>
+
+        <b>NB:</b> Both incoming and outgoing ports use encrypted connection SSL. This must be selected for both ports.<br/><br/>
+
+        <h4><u>For domains added on to SSL after April 2014:</u></h4>
+        Incoming mail server (POP3)	: mail-2.sslzol.co.zw<br/>
+        Outgoing mail server (SMTP)	: mail-2.sslzol.co.zw<br/>
+        <em>Everything else is the same as the settings for domains added onto SSL before April 2014.</em><br/><br/>
+
+        <h4><u>For domains added on to SSL late 2016 and 2017:</u></h4>
+        Incoming mail server (POP3)	: mail-3.sslzol.co.zw<br/>
+        Outgoing mail server (SMTP)	: mail-3.sslzol.co.zw<br/>
+        <em>Everything else is the same as the settings for domains added onto SSL before April 2014.</em><br/><br/>
+
+]]></string>
+
+    <string name="email_text_gen">
+        <![CDATA[To determine where the emails of a domain are hosted you have to dig the MX records of the domain.\n<br/>
+        Use the following URL to get access to an online digging tool: <a href="https://toolbox.googleapps.com/apps/dig/">https://toolbox.googleapps.com/apps/dig/</a> <br/><br/>
+        If they show MX records as anything which includes sslzol.co.zw, then the email are on SSL. Otherwise,
+        the emails are not hosted by ZOL. If in doubt, double check with the DNS team.<br/><br/>
+
+    <h3>SSL</h3>
+    Clients do not have an onsite email sever. Emails are hosted on ZOL servers and clients are given an administrative account for their respective
+    domain(s). The account allows them to manage their users (create, delete and edit accounts) just as if they had their own server. However, this can
+    only be done via the web portal <a href="https://webmail.sslzol.co.zw">https://webmail.sslzol.co.zw</a>.<br/><br/>
+
+    A default size of disc space and maximum number of users is allocated for each domain depending on the subscribed Internet package. These can be
+    expanded at charges of $5/month for 5GB or 10 users respectively. Please refer to DNS Menu -> Account Quotas or <a href="https://zoledge.zol.co.zw/SSLZol/Account_Quotas">https://zoledge.zol.co.zw/SSLZol/Account_Quotas</a> for more information
+    and for updates. <br/><br/>
+
+    Copies of emails may or may not be saved on the server (webmail mailbox) depending on settings specified in the client’s email program
+    under storage settings. This is normally found on the Advanced settings tab.<br/><br/>
+]]></string>
+
+    <string name="zol_webmail_text">
+        <![CDATA[The webmail URL for ZOL is <a href="https://webmail.sslzol.co.zw">https://webmail.sslzol.co.zw</a><br/><br/>
+     Clients do not have an onsite email sever. Emails are hosted on ZOL servers and clients are given an administrative account for their respective domain(s).
+     The account allows them to manage their users (create, delete and edit accounts) just as if they had their own server. However, this can only be done
+     via the web portal, mentioned above.<br/><br/>
+
+]]></string>
+
+    <string name="voip_trouble1">
+        <![CDATA[1. If the LOS light is blinking slowly(once every two seconds), the RX optical power of the ONT is lower than the optical receiver sensitivity.<br/><br/>
+    2. If the LOS light is blinking red, means there is no fibre, check optical power levels are within range and the patch cord. (Disconnecting and reconnecting patch cord may help) If that does not work, Log a ticket with GPON Support.<br/><br/>
+    3. If the LOS is blinking quickly (twice per second), the OLT detects that the ONT is a rogue ONT.<br/><br/>
+    4. Optimum Power levels are: RX = -17 to -27dBm; TX = 2dBm.<br/><br/>
+
+]]></string>
+
+    <string name="voip_trouble">
+        <![CDATA[
+It is important to note that GPON clients have a VPN to our SIP servers which is optimised to work best on server gpon-sip.zol.co.zw(77.246.50.80)
+and not sip.zol.co.zw.(77.246.50.93).\n\n<br/><br/>
+This helps one to do the correct configurations in cases where:\n<br/>
+ - A second VoIP number has been requested by a home user and has to be manually provisioned on the ONT.\n<br/>
+ - Where client purchases their own extra VoIP line and would want to have it run the ONT. Configurations will be done manually.\n<br/>
+ - Where the client wants to run a PBX behind the ONT.\n\n<br/><br/>
+
+So, for such setups, it is best to us gpon-sip.zol.co.zw as the SIP server.\n\n<br/><br/>
+It\'s is important to also note that, we do not give GPON clients SIP line credentials for them to setup on other devices. The line\'s SIP credentials
+are provisioned on to the ONT. We can only give the clients their CRM credentials which will help them, among other things, to:\n<br/>
+   - top up using VoIP voucher.\n<br/>
+   - monitor their usage.\n<br/>
+   - check usage logs.\n\n<br/>
+
+<h3>Line not working - no dial tone.</h3>
+
+There are 4 possible reasons for this:\n<br/>
+1.) It could be that the client has a cordless phone and the dect is not connected to a power source. The Dect always has to be connected to a power source
+for the handset to work.\n<br/><br/>
+2.) The cable from the handset might be connected on a wrong port. By default, all GPON lines are configured to Tel1 port for clients with a single
+VoIP number.\n<br/><br/>
+3.) The Tel1 port could be dead. To resolve this:\n<br/>
+  - Login to the ONT,\n<br/>
+  - go to Voice tab.\n<br/>
+  - scroll down to - Basic User Parameters(SIP) section.\n<br/><br/>
+  - Click on number 1, on which the line is currently configured.\n<br/>
+                   - On Associated POTS Port: change from 1 to 2.\n<br/>
+                   - Click Apply\n<br/>
+                    Click OK on warning pop up message.\n<br/><br/>
+
+ - Click on number 2, which has no current configurations.\n<br/>
+                   - On Associated POTS Port: change from 2 to 1.\n<br/>
+                   - Click Apply.\n\n<br/><br/>
+
+Now ask the client swap to Tel2 and test if they can get a dial tone.\n\n<br/><br/>
+
+Please note that you may need to clearly analyse the configurations. In one of the ONTs, the Line was now configured on Line2 instead of Line1,
+yet the phone was configured on Line1\n\n<br/><br/>
+4.) The ONT might not have successfully been provisioned and has no VoIP configurations under Status, VoIP Information. It could be as well
+that the ONT has lost configurations for one reason or another, could be intermittent power supply, or system provisioning problems.\n<br/><br/>
+The solution in this case is to try and re-provision the client\'s ONT. The notes below will guide you on how to re-provision an ONT using Prism.\n<br/><br/>
+Step 1.) Open the client\'s Prism Service.\n<br/>
+ Edit as follows:\n<br/>
+- Change GPON Activation State - to To-be-deactivated and save.\n<br/>
+- Wait for say 5-10 minutes an the GPON Activation State changes to De-activated and then\n<br/><br/>
+
+Step 2.)  Got to Prism again\n<br/>
+change the following fields to blanks\n<br/>
+           \t- GPON Device / OLT\n<br/>
+           \t- GPON Frame Number\n<br/>
+           \t- GPON Slot Number\n<br/>
+           \t- GPON Port Number\n<br/>
+           \t- GPON ONT ID\n<br/><br/><br/>
+Change GPON Activation State to be Details Confirmed and Save\n\n<br/>
+Wait for the above fields to be filled in or simply check login attempts.\n\n<br/><br/>
+
+Once the ONT is connected, you can now check if the VoIP profile is now configure under Status, VoIP Information.\n<br/>
+
+]]></string>
+
+    <string name="prime_txt">
+        <![CDATA[
+
+]]>
+    </string>
+    <string name="text1"><![CDATA[1. Navigate to: "Email Flow Controls > Forwarding".\n
+2. Turn the status to "On" by checking on: “Forward inbound email to other address(es)”.\n
+3. Enter the address (es) to which you want the email to be forwarded to. (You can enter up to 25 addresses separated by commas).\n
+4. If you would like a copy of your email in your local mailbox, then check on: “Forward a copy and keep a copy here".\n
+5. Click on “Save Changes”.\n]]></string>
+
+    <string name="text2"><![CDATA[1. Navigate to: "Email Flow Controls > Spam Filtering".\n
+2. Turn the status to "On".\n
+3. Scroll down the  Black-List text box or the White-List text box.\n
+4. Type in email address (es) you would like to blacklist, separated by commas. If you would like to blacklist an entire domain, type in *@domain.com.\n
+5. Type in email address (es) you would like to whitelist, separated by commas. If you would like to blacklist an entire domain, type in *@domain.com.\n
+6. Click on “Save Changes”.\n]]></string>
+
+    <string name="text3"><![CDATA[1. Click on the Email Tab and select My Email Tools.\n
+2. Under Outbound Email select Webmail Signatures.\n
+3. Under Signature Name click the little notepad to edit.\n
+4. Edit Signature Name and From Name.\n
+5. Save changes.\n]]></string>
+
+    <string name="text4"><![CDATA[ In Microsoft Outlook 2007\n
+- Tools, Account Settings.\n
+- Double click on email address.\n
+- Click on More Settings Button.\n
+- Go to Advanced tab.\n
+- Under Delivery, Deselect “Leave a copy of messages on the server”.\n\n
+
+MAC Mail (POP3 Only)\n
+- Select Mail / Preferences.\n
+- Click the Accounts button, located at the top of the window.\n
+- Click once on your account, as it appears in the Accounts list.\n
+- Click the Advanced tab.\n
+- Make sure that the “Remove copy from the server after retrieving a message” box is checked.\n
+- Close the Accounts window.\n
+- When prompted to save your changes, click the Save button.\n\n
+]]></string>
+    <string name="action_search">Search</string>
+    <string name="mission"><![CDATA[To deliver simple & useful solutions that improve the way our customers live, work and play.]]></string>
+    <string name="vision"><![CDATA[To create the most admired brand in Africa by delivering simple & useful technology, paired with excellent customer service.]]></string>
+    <string name="history"><![CDATA[We provide fibre, VSAT and wireless Internet services to a large range of clients from multi-national
+     enterprises to home users.
+
+     Founded in 1994, we’re proud to have become one of the largest ISPs in Zimbabwe, tripling in size in
+     only 18 months following the acquisition by the Liquid Telecom Group in 2012.
+
+     We provide over 700Mbps of Internet bandwidth per month, run over 60 servers in 3 continents, employ over 90 staff across
+     four offices nationwide and host over 3,000 domain names. Our Network Operations Centre (NOC) and support desk is open 24/7/365.
+
+     ZOL Zimbabwe also operates over 200 ZOLspots - Wi-Fi hotspots that enable anyone to access broadband Internet on the go… anywhere, any time! <br/>
+
+     ZOL Zimbabwe is part of the Liquid Telecom Group.]]></string>
+    <string name="desc">Description</string>
+    <string name="pic">Picture</string>
+    <string name="light">Light</string>
+    <string name="send_to">Share with…</string>
+</resources>

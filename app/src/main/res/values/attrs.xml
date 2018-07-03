@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="ExpandableCardView">
+		<attr name="title" format="string"/>
+		<attr name="icon" format="reference"/>
+		<attr name="inner_view" format="reference"/>
+		<attr name="expandOnClick" format="boolean"/>
+		<attr name="animationDuration" format="integer"/>
+	</declare-styleable>
+
+	<declare-styleable name="ScannerOverlay">
+		<attr name="square_width" format="integer" />
+		<attr name="square_height" format="integer" />
+		<attr name="line_color" format="color" />
+		<attr name="line_width" format="integer" />
+		<attr name="line_speed" format="integer" />
+	</declare-styleable>
+
+	<declare-styleable name="BarcodeReader">
+		<attr name="auto_focus" format="boolean" />
+		<attr name="use_flash" format="boolean" />
+	</declare-styleable>
+
+	<attr name="step_normal_color" format="color"/>
+	<attr name="step_activated_color" format="color"/>
+	<attr name="step_done_icon" format="reference"/>
+	<attr name="step_animation_duration" format="integer"/>
+	<attr name="step_enable_animation" format="boolean"/>
+	<attr name="step_line_color" format="color"/>
+	<attr name="step_error_highlight_color" format="color"/>
+	<attr name="step_show_summary_always" format="boolean"/>
+
+	<declare-styleable name="VerticalStepperView">
+		<attr name="step_normal_color"/>
+		<attr name="step_activated_color"/>
+		<attr name="step_done_icon"/>
+		<attr name="step_animation_duration"/>
+		<attr name="step_enable_animation"/>
+		<attr name="step_line_color"/>
+		<attr name="step_error_highlight_color"/>
+		<attr name="step_show_summary_always"/>
+	</declare-styleable>
+
+	<declare-styleable name="VerticalStepperItemView">
+		<attr name="step_index" format="integer"/>
+		<attr name="step_title" format="string"/>
+		<attr name="step_summary" format="string"/>
+		<attr name="step_summary_done" format="string"/>
+		<attr name="step_is_last" format="boolean"/>
+		<attr name="step_state" format="enum">
+			<enum name="normal" value="0"/>
+			<enum name="selected" value="1"/>
+			<enum name="done" value="2"/>
+		</attr>
+		<attr name="step_normal_color"/>
+		<attr name="step_activated_color"/>
+		<attr name="step_done_icon"/>
+		<attr name="step_animation_duration"/>
+		<attr name="step_enable_animation"/>
+		<attr name="step_line_color"/>
+		<attr name="step_error_highlight_color"/>
+		<attr name="step_show_summary_always"/>
+	</declare-styleable>
+
+	<declare-styleable name="ArcLayout">
+		<attr name="arc_height" format="dimension" />
+		<attr name="arc_position">
+			<enum name="bottom" value="0"/>
+			<enum name="top" value="1"/>
+			<enum name="left" value="2"/>
+			<enum name="right" value="3"/>
+		</attr>
+		<attr name="arc_cropDirection" format="enum">
+			<enum name="cropInside" value="0" />
+			<enum name="cropOutside" value="1"/>
+		</attr>
+	</declare-styleable>
+
+	<declare-styleable name="MaterialLetterIcon">
+		<attr name="mli_shape_color" format="color"/>
+		<attr name="mli_shape_type" format="enum">
+			<enum name="circle" value="0"/>
+			<enum name="rect" value="1"/>
+			<enum name="round_rect" value="2"/>
+			<enum name="triangle" value="3"/>
+		</attr>
+		<attr name="mli_letter" format="string"/>
+		<attr name="mli_letter_color" format="color"/>
+		<attr name="mli_letter_size" format="integer"/>
+		<attr name="mli_letters_number" format="integer"/>
+		<attr name="mli_initials" format="boolean"/>
+		<attr name="mli_initials_number" format="integer"/>
+		<attr name="mli_round_rect_rx" format="float"/>
+		<attr name="mli_round_rect_ry" format="float"/>
+	</declare-styleable>
+
+	<declare-styleable name="ExpandableTextView">
+		<attr name="maxCollapsedLines" format="integer"/>
+		<attr name="animDuration" format="integer"/>
+		<attr name="animAlphaStart" format="float"/>
+		<attr name="expandDrawable" format="reference"/>
+		<attr name="collapseDrawable" format="reference"/>
+	</declare-styleable>
+
+	<item type="id" name="expandable_text"/>
+	<item type="id" name="expand_collapse"/>
+	
+</resources>
